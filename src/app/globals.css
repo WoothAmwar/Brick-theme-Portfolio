@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.baseplate-texture {
+    background-color: #24ad42;
+    background-image: radial-gradient(#1e8c35 20%, transparent 20%);
+    background-position: 0 0;
+    background-size: 40px 40px;
+    box-shadow: inset 0 0 100px rgba(0,0,0,0.1);
+}
+.stud-shadow {
+    box-shadow: 0 4px 0 rgba(0,0,0,0.15), inset 0 2px 2px rgba(255,255,255,0.3);
+}
+.brick-shadow {
+    box-shadow: 0 8px 0 rgba(0,0,0,0.2);
+}
+.brick-stud {
+    width: 24px;
+    height: 6px;
+    background: inherit;
+    filter: brightness(1.1);
+    border-radius: 4px 4px 0 0;
+    margin: 0 auto;
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
