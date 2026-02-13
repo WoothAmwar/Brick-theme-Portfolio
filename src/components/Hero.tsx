@@ -72,9 +72,11 @@ export const Hero: React.FC<HeroProps> = ({ name, titles, description, social })
         <h1 className="text-6xl md:text-8xl font-black text-slate-900 dark:text-white mb-6 leading-tight">
           HELLO, I'M <span className="text-lego-blue uppercase">{firstName}</span>
           <br />
-          <span className="bg-primary px-4 py-1 inline-block transform -rotate-2 uppercase min-h-[1.2em]">
-            {displayText}
-          </span>
+          <div className="flex items-center justify-center">
+            <span className="bg-primary px-4 sm:px-0 py-2 md:inline-flex items-center justify-center transform -rotate-2 uppercase min-h-96 md:min-h-80">
+              {displayText}
+            </span>
+          </div>
         </h1>
 
         {/* Subtitle */}

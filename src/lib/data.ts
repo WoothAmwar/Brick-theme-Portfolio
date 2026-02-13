@@ -19,6 +19,5 @@ export const getExperience = () => primaryLanguageData.experience;
 export const NAV_ITEMS = [
     { label: 'HOME', href: '#home', color: 'red' },
     { label: 'BUILDS', href: '#builds', color: 'blue' },
-    { label: 'EXPERIENCE', href: '#experience', color: 'yellow' },
-    { label: 'CONTACT', href: '#contact', color: 'green' },
+    { label: 'EXPERIENCE', href: '#experience', color: 'yellow' }
 ] as const;

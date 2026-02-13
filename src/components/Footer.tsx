@@ -27,7 +27,7 @@ export const Footer: React.FC<FooterProps> = ({ social }) => {
               </a>
             ))}
           </div>
-          <p className="text-slate-400 text-sm font-bold">© {currentYear} BRICK PORTFOLIO. ALL PIECES INCLUDED.</p>
+          <p className="text-slate-400 text-sm font-bold">© {currentYear} ANWAR KADER. ALL PIECES INCLUDED.</p>
         </div>
 
         {/* Right Side: Links */}

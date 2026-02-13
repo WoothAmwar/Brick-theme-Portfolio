@@ -2,7 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Brick Portfolio',
+  title: 'Anwar Kader - About Me',
   description: 'A Lego-inspired portfolio website',
 };
 

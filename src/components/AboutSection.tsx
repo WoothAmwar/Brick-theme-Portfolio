@@ -53,9 +53,9 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ skills, experience, 
             {experience.map((job, index) => (
               <div key={index} className="bg-white dark:bg-background-dark p-8 rounded-xl brick-shadow border-l-8 border-lego-yellow relative ml-4">
                   {/* Connector line */}
-                  {index !== experience.length - 1 && (
+                  {/* {index !== experience.length - 1 && (
                       <div className="absolute left-[-36px] top-16 bottom-[-40px] w-1 bg-lego-gray/30"></div>
-                  )}
+                  )} */}
                   {/* Dot */}
                   {/* <div className="absolute left-[-43px] top-8 w-4 h-4 rounded-full bg-lego-red ring-4 ring-white dark:ring-background-dark"></div> */}
 
