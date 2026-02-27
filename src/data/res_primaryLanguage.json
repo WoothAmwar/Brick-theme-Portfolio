@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hello",
-    "description": "I'm Anwar Kader, a computer science and economics student at the University of Chicago focused on building software that supports research teams and student communities.",
+    "description": "I'm Anwar Kader, a computer science and economics undergraduate student at the University of Chicago focused on building software for research and general purposes",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -44,7 +44,7 @@
       "images": [
         "/images/portfolio/rcc/rccdataImage.png"
       ],
-      "url": "https://github.com/WoothAmwar/hurricane_vcc_unity_project",
+      "url": "https://youtu.be/N3u1UOspsNM",
       "tools": [
         {
           "class": "devicon-unity-original",
@@ -57,10 +57,6 @@
         {
           "class": "devicon-python-plain",
           "name": "Python"
-        },
-        {
-          "class": "devicon-pandas-original",
-          "name": "pandas"
         }
       ]
     },
@@ -78,16 +74,8 @@
           "name": "Python"
         },
         {
-          "class": "devicon-amazonwebservices-original",
-          "name": "AWS"
-        },
-        {
           "class": "devicon-git-plain",
           "name": "Git"
-        },
-        {
-          "class": "devicon-linux-plain",
-          "name": "Linux"
         }
       ]
     }
@@ -103,7 +91,8 @@
       ],
       "tools": [
         "Used Claude LLM to structure 200+ previously unformatted data entries.",
-        "Built a semi-automated Python pipeline to analyze 10,000+ data points."
+        "Built a semi-automated Python pipeline to analyze 10,000+ data points.",
+        "Designed the UI interface from the ground up using Figma."
       ]
     },
     {
@@ -115,19 +104,19 @@
         "Xarray"
       ],
       "tools": [
-        "Reduced load time by 96% via object pooling and optimizations.",
+        "Reduced load time of visualization application by 96% via object pooling and optimizations.",
         "Presented to 15+ computational scientists and researchers."
       ]
     },
     {
       "company": "University of Chicago ACM",
-      "title": "Board Member, Software Engineering Committee",
+      "title": "Board Member, Senior Software Engineering Director",
       "years": "Feb 2025 - Present",
       "mainTool": [
         "Community Leadership"
       ],
       "tools": [
-        "Co-lead weekly software engineering meetings for peers.",
+        "Co-lead weekly software engineering meetings for 20+ peers.",
         "Improved member coding fluency and career readiness."
       ]
     }
